@@ -45,12 +45,12 @@ app.post("/", function(req, res) {
 // Convert js object "data" to JSON format via JSON.stringify()
   const jsonData = JSON.stringify(data);
   //specify url where the part after ../lists/ equals lists id
-  const url = "https://us19.api.mailchimp.com/3.0/lists/f526a40c9d";
+  const url = "https://us19.api.mailchimp.com/3.0/lists/X";
 
 //specify method, and author + API key
   const options = {
     method: "POST",
-    auth: "juha1:83923cb3a4ca4f4a7e857c781f39ee0b-us19"
+    auth: "juha1:X"
   }
 
 
