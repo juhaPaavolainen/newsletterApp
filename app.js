@@ -50,7 +50,7 @@ app.post("/", function(req, res) {
 //specify method, and author + API key
   const options = {
     method: "POST",
-    auth: "juha1:a83923cb3a4ca4f4a7e857c781f39ee0b-us19"
+    auth: "juha1:83923cb3a4ca4f4a7e857c781f39ee0b-us19"
   }
 
 
